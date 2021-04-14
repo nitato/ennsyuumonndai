@@ -635,7 +635,6 @@ body {
 
 
   /*       service        */
-
   .service {
     background: #e5e5e5;
     margin-bottom: 10%;
@@ -647,39 +646,75 @@ body {
   }
   
   .service-content {
-    padding-bottom:15%;
+    padding-bottom: 15%;
   }
   
   .service-img {
-   width:80%;
-   margin:0 auto;
+    width: 80%;
+    margin:0 auto;
   }
   
   .service-img_second {
-    width:80%;
-    margin:0 auto;
-    }
+    margin: 0 auto;
+  }
   
   .service-content_inner {
+    position:static;
     background: #fff;
     width: 80%;
+    padding: 5% 5%;
     box-sizing: border-box;
     margin:0 auto;
-    display:block;
-    position:static;
   }
   
   .service-content_inner-second {
     width:80%;
-    margin:0 auto;
-    display:block;
-    position:static;
   }
   
   .service-btn {
     border: 1px solid #000;
     margin: 0 0 0 auto;
   }
+
+
+
+  /*        recruit          */
+
+
+
+  .company {
+    margin-bottom: 10%;
+  }
+  
+  .recruit-company_size {
+    width: 100%;
+    height: 300px;
+  }
+  
+  .company-img {
+    background: url(./img1/company.jpeg) center/cover no-repeat;
+  }
+  
+  .recruit-img {
+    background: url(./img1/recruit.jpg) center/cover no-repeat;
+  }
+  
+  .company-title {
+    text-align: center;
+    color: #fff;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+  }
+  
+  .company-title span {
+    color: #fff;
+  }
+  
+  
+  
+  
 }
 
 
